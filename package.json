@@ -1,12 +1,12 @@
 {
-    "name": "TeLBotSpeak",
+    "name": "my-project",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
     "type": "module",
     "scripts": {
-        "dev": "nodemon ./src/main.js",
-        "start": "node ./src/main.js",
+        "dev": "nodemon ./src",
+        "start": "node ./src/main.js"
     },
     "keywords": [],
     "author": "",
@@ -14,5 +14,9 @@
     "devDependencies": {
         "cross-env": "^7.0.3",
         "nodemon": "^3.0.1"
+    },
+    "dependencies": {
+        "config": "^3.3.9",
+        "telegraf": "^4.15.0"
     }
 }
